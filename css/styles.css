@@ -1,0 +1,121 @@
+body {
+	font-family: 'Roboto', serif;
+	font-size: 12px;
+	/*background-color: #dae3e2;*/
+
+}
+
+
+
+#header-nav {
+	background-color: #878787 ;
+	border-radius: 0;
+	border: 0;
+
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+	font-family: "Roboto", serif;
+	font-size: 1.5em;
+	color: black ;
+	/*text-shadow: 1px 1px 1px #222;*/
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	line-height: .75;
+  	font-weight: bold;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+} 
+
+
+#nav-list{
+	margin-top: 10px;
+	background-color: white;
+
+}
+#nav-list a {
+	color: black;
+	font-weight: bold;
+	border: 1px solid black;
+	text-align: center;
+	background-color: #e8e8e6;
+}
+
+
+#nav-list a:hover {
+	background: white;
+}
+
+#nav-list a span {
+	font-size: 1.2em;
+	padding-right: 1em;
+	vertical-align: middle;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border:1px solid black ;
+}
+
+/* .navbar-header button.navbar-toggle {
+	clear: both;
+
+}*/
+
+.container .jumbotron {
+	padding-top: 20px;
+}
+
+h2 {
+	color: black;
+	font-weight: bolder;
+	padding: 0 0 20px;
+	margin: 10 0 10px;
+}
+.jumbotron section h3 {
+	font-weight: bold;
+	padding-bottom: 20px;
+	margin: 0;
+	vertical-align: middle;
+
+}
+.jumbotron section p {
+	font-size: 16;
+	text-align: justify;
+	line-height: 35px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px){
+
+}
+
+/********** Medium devices only **********/
+@media(min-width: 992px) and (max-width: 1199px){
+
+}
+
+/********** Small devices only **********/
+@media(min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/********** Extra Small devices only **********/
+@media (max-width: 767px) {
+	#collapsable-nav {
+		background-color: white;
+	}
+	.navbar-brand {
+		padding-top: 10px
+		height:80px;
+	}
+	.navbar-brand h1 {
+		padding-top: 3px;
+		font-size: 4vw;
+	}
+}
